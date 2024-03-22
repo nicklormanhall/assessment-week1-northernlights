@@ -1,0 +1,19 @@
+* {
+  font-family: "Gill Sans", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  display: flex;
+}
+
+.feature {
+  height: 100vh;
+  background-image: url("./images/eclipse.jpg");
+  background-size: cover;
+  background-position: center center;
+}
