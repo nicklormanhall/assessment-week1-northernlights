@@ -13,47 +13,70 @@
       <h1>AURORA</h1>
       <nav>
         <a href="">HOME</a>
-        <a href="">ABOUT</a>
-        <a href="">WHERE TO SEE</a>
-        <a href="">SOUTHERN LIGHTS</a>
-        <a href="">CONTACT</a>
+        <a href="#about">ABOUT</a>
+        <a href="https://www.aurora-service.eu/">WHERE TO SEE</a>
+        <a
+          href="#video"
+          >TIME LAPSE</a
+        >
+        <a href="mailto:nicklormanhall@gmail.com">CONTACT</a>
+        <button id="myButton">Change colour</button>
       </nav>
     </header>
     <main>
-      <section class="image1">
-        <img
-          src="./assets/Northern-Lights-and-Ice-Cave-image.jpg"
-          alt="image1"
-        />
-        <div class="title">
-          <h2>Featured Post1</h2>
-          <h1>How to make a splash page</h1>
-          <a href="#">Read more</a>
+      <section class="feature image-1">
+        <div class="container">
+          <h2 class="location">ICELAND</h2>
+          <h1 class="name-of-image">"Heimdalls gaze" - Enrico Fossati</h1>
+          <p class="author-desc">
+            "That day, I discovered a nice ice block with a hole in the middle,
+            so I imagined the lights dancing through the hole. After a bit of
+            patience, we had a pretty lucky night with a great green light
+            show."
+          </p>
+          <a
+            class="read-more"
+            href="https://capturetheatlas.com/best-northern-lights-images/"
+            >READ MORE</a
+          >
         </div>
       </section>
-
-      <section class="image2">
-        <img
-          src="./assets/Stokksnes-Northern-Lights-Iceland-picture.jpg"
-          alt="image2"
-        />
-        <div class="title">
-          <h2>Featured Post2</h2>
-          <h1>How to make a splash page</h1>
-          <a href="#">Read more</a>
+      <section id="about" class="feature image-2">
+        <div class="container">
+          <h2 class="location">STOKKSNES, ICELAND</h2>
+          <h1 class="name-of-image">“Angel Dust” - Joshua Snow</h1>
+          <p class="author-desc">
+            "That night, the Aurora appeared in a wide band across the sky like
+            you see in the image. Later on, the pinks and purples came and went.
+            <br>The northern lights, also known as the aurora borealis, are shimmering curtains of light that illuminate the night sky across the north. Similar lights seen in southern polar regions are known as the aurora australis. Interaction between the Sun and the Earth creates these lights.</br>
+          </p>
+          <a
+            class="read-more"
+            href="https://capturetheatlas.com/best-northern-lights-images/"
+            >READ MORE</a
+          >
         </div>
       </section>
-
-      <section class="image3">
-        <img src="./assets/Northern-Lights-Jasper-image.jpg" alt="image2" />
-        <div class="title">
-          <h2>Featured Post3</h2>
-          <h1>How to make a splash page</h1>
-          <a href="#">Read more</a>
+      <section class="feature image-3">
+        <div class="container">
+          <h2 class="location">ATHABASCA GLACIER - ALBERTA, CANADA</h2>
+          <h1 class="name-of-image">“Otherworldly” – Paul Zizka</h1>
+          <p class="author-desc">
+            "A nighttime ice climbing shot at the toe of the Athabasca Glacier
+            is something two friends and very skilled climbers (Mike Stuart and
+            Takeshi Tani) and I had planned for some time..."
+          </p>
+          <a
+            class="read-more"
+            href="https://capturetheatlas.com/best-northern-lights-images/"
+            >READ MORE</a
+          >
         </div>
+       
       </section>
-
-      <footer>Nick Lorman-Hall</footer>
+      <section> 
+        <video id="video" src="./assets/time_lapse_video_of_aurora_borealis (1080p).mp4" controls autoplay></video></section>
     </main>
+    <footer>Aurora Borealis</footer>
   </body>
 </html>

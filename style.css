@@ -1,19 +1,114 @@
 * {
   font-family: "Gill Sans", sans-serif;
-  background-color: black;
   color: white;
   margin: 0;
   padding: 0;
+  /* background-color: black; */
 }
 
 header {
   position: fixed;
   display: flex;
+  padding: 30px 30px;
+  gap: 100px;
+  align-content: center;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+nav a {
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: greenyellow;
+}
+
+/* .feature {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+} */
+
+.image-1 {
+  background-image: url("./assets/Northern-Lights-and-Ice-Cave-image.jpg");
+}
+
+.image-2 {
+  background-image: url("./assets/Stokksnes-Northern-Lights-Iceland-picture.jpg");
+}
+
+.image-3 {
+  background-image: url("./assets/Northern-Lights-Jasper-image.jpg");
+}
+
+.container {
+  padding: 0 margins 0;
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  height: 200px;
+  gap: 15px;
+}
+
+.location {
+  font-weight: 100;
+  color: gray;
+}
+
+.name-of-image {
+  font-size: 40px;
+}
+
+.author-desc {
+  margin-left: 20px;
+  font-style: italic;
+}
+
+.read-more {
+  margin-top: 20px;
+  display: inline-block;
+  max-width: 200px;
+  font-weight: 700;
+  font-size: 20px;
+  border: 2px solid white;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .feature {
-  height: 100vh;
-  background-image: url("./images/eclipse.jpg");
+  position: relative;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
+  height: 100vh;
+}
+
+#video {
+  width: 100vw;
+  height: 100vh;
+}
+
+#myButton {
+  padding: 10px 20px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  color: black;
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 15px;
+  color: aquamarine;
 }
