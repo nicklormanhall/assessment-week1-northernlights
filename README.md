@@ -52,7 +52,7 @@ Complete and exceeds expectations
 
     Some of the things I think I have done to exceed the expectations are:
 
-    I have included a short video at the bottom (including resizing to fit on the page)
+    I have included a short video at the bottom (including resizing to fit on the page) with autoplay and loop.
     Added two buttons with JavaScript to change the font colours
     Added an email button on the CONTACT
 
