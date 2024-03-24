@@ -1,10 +1,17 @@
 console.log("Hello world");
 
-const button = document.getElementById("myButton");
+const pinkButton = document.getElementById("pinkButton");
+const whiteButton = document.getElementById("whiteButton");
 const elements = document.querySelectorAll("*");
 
-button.addEventListener("click", function () {
+pinkButton.addEventListener("click", function () {
   elements.forEach(function (element) {
     element.style.color = "deeppink";
+  });
+});
+
+whiteButton.addEventListener("click", function () {
+  elements.forEach(function (element) {
+    element.style.color = "white";
   });
 });

@@ -99,7 +99,14 @@ nav a:hover {
   height: 100vh;
 }
 
-#myButton {
+#pinkButton {
+  padding: 10px 20px;
+  background-color: greenyellow;
+  border-radius: 20px;
+  color: black;
+}
+
+#whiteButton {
   padding: 10px 20px;
   background-color: greenyellow;
   border-radius: 20px;
